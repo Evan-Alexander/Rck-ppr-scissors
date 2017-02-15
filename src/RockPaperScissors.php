@@ -60,6 +60,19 @@
                 }
             }
 
+            //Scissors and papers
+            if (($input1 == "scissors" && $input2 == "papers") || ($input1 == "papers" && $input2 == "scissors")) {
+                if ($input1 == "scissors") {
+                    return "Player 1";
+                } else {
+                    return "Player 2";
+                }
+            }
+
+            //Draw
+            if ($input1 == $input2) {
+                return "It's a Draw!";
+            }
 
         }
 
