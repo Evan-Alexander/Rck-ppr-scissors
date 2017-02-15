@@ -41,6 +41,7 @@
 
         function playGame($input1, $input2)
         {
+            //Rock and Scissors
             if (($input1 == "rock" && $input2 == "scissors") || ($input1 == "scissors" && $input2 == "rock")) {
                 if ($input1 == "rock") {
                     return "Player 1";
@@ -48,6 +49,18 @@
                     return "Player 2";
                 }
             }
+
+
+            //Rock and papers
+            if (($input1 == "rock" && $input2 == "papers") || ($input1 == "papers" && $input2 == "rock")) {
+                if ($input1 == "papers") {
+                    return "Player 1";
+                } else {
+                    return "Player 2";
+                }
+            }
+
+
         }
 
     }
