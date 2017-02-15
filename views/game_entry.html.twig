@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Play Rock Paper Scissors</h1>
+
+            <div class="form-group">
+                <form action="/view_results" method="post">
+                    <div class="radio">
+                        <h3>Player 1</h3>
+                        <label>
+                            <input type="radio" name="player1" value="rock" checked> Rock
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="player1" value="papers"> Papers
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="player1" value="scissors"> Scissors
+                        </label>
+                    </div>
+                    <br>
+                    <div class="radio">
+                        <h3>Player 2</h3>
+                        <label>
+                            <input type="radio" name="player2" value="rock" checked> Rock
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="player2" value="papers"> Papers
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="player2" value="scissors"> Scissors
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
