@@ -2,11 +2,6 @@
 
     class RockPaperScissors
     {
-
-
-
-
-
         function playGame($input1, $input2){
             //Rock and Scissors
             if (($input1 == "rock" && $input2 == "scissors") || ($input1 == "scissors" && $input2 == "rock")) {
@@ -28,8 +23,6 @@
             if ($input1 == $input2) {
                 return "It's a Draw!";
             }
-
-
         }
 
 
@@ -40,6 +33,8 @@
                 return "Player 2";
             }
         }
+
+
 
 
     }

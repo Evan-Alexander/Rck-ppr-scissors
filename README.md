@@ -19,10 +19,11 @@ This is a rock paper scissors game.
 
 |Behavior|Input|Output|
 |--------|-----|------|
-| Enter an allergy score. | "1" | "eggs" |
-| Enter an allergy score. | "3" | "eggs and peanuts" |
-| Enter an allergy score. | "255" | "eggs, peanuts, shellfish, strawberries, tomatoes, chocolate, pollen, cats" |
-| Enter an allergy score. | "20" | "shellfish and tomatoes" |
+| Player 1 enters "rock". Player 2 enters "scissors". | "rock", "scissors" | "Player 1" |
+| Player 1 enters "rock". Player 2 enters "papers". | "rock", "papers" | "Player 2" |
+| Player 1 enters "scissors". Player 2 enters "papers". | "scissors", "papers" | "Player 1" |
+| Player 1 enters "scissors". Player 2 enters "scissors". | "scissors", "scissors" | "It's a Draw!" |
+
 
 ## Known Bugs
 
